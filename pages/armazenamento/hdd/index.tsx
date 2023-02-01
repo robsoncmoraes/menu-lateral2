@@ -1,10 +1,8 @@
 import Link from "next/link";
-import Menu from "../../../components/Menu";
 
 export default function Hdd() {
   return (
     <>
-      <Menu />
       <h1>HDD</h1>
       <br />
       <h3>

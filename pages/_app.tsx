@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Menu from "../components/Menu";
 import Content from "../components/Content";
 import Submenu from "../components/Submenu";
+import Footer from "../components/Footer"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,6 +12,8 @@ function MyApp({ Component, pageProps }) {
       <Content>
         <Component {...pageProps} />
       </Content>
+      <Footer/>
+      
     </div>
   );
 }

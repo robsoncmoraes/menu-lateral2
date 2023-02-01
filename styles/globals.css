@@ -49,10 +49,8 @@ body {
   font-size: 35px;
   font-weight: 300px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 0;
-  }
+}
 
-  .submenu .submenu-content {
-    padding-left: 12px;
-  }
-
+.submenu .submenu-content {
+  padding-left: 12px;
+}

@@ -6,5 +6,5 @@ export default function Intel (){
        <h1>Intel</h1>
        <button><Link href="/">Voltar</Link></button>
     </>
-    )
+    );
 }

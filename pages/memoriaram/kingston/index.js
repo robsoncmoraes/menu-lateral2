@@ -6,5 +6,5 @@ export default function Kingston (){
        <h1>Kingston</h1>
        <button><Link href="/">Voltar</Link></button>
     </>
-    )
+    );
 }

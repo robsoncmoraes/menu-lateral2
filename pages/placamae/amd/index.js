@@ -6,5 +6,5 @@ export default function Amd (){
        <h1>AMD</h1>
        <button><Link href="/">Voltar</Link></button>
     </>
-    )
+    );
 }

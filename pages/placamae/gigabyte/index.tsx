@@ -6,5 +6,5 @@ export default function Gigabyte (){
        <h1>GigaByte</h1>
        <button><Link href="/">Voltar</Link></button>
     </>
-    )
+    );
 }

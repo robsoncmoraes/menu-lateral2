@@ -19,13 +19,13 @@ export default function Menu() {
 
       <ul className="menu">
         <Submenu title="Armazenamento">
-          <Item title={"HDD"} path="/armazenamento/hdd" />
+          <Item title={"HDD"} path="../armazenamento/hdd" />
           <Item title={"SSD"} path="/armazenamento/ssd" />
         </Submenu>
 
         <Submenu title="Placa de Vídeo">
-          <Item title="Nvidia" path="/placadevideo/amd" />
-          <Item title="AMD" path="/placadevideo/nvidia" />
+          <Item title="AMD" path="/placadevideo/amd" />
+          <Item title="Nvidia" path="/placadevideo/nvidia" />
         </Submenu>
 
         <Submenu title="Placa Mãe">
