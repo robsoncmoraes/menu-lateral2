@@ -19,7 +19,7 @@ export default function Menu() {
 
       <ul className="menu">
         <Submenu title="Armazenamento">
-          <Item title={"HDD"} path="../armazenamento/hdd" />
+          <Item title={"HDD"} path="/armazenamento/hdd" />
           <Item title={"SSD"} path="/armazenamento/ssd" />
         </Submenu>
 
