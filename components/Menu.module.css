@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 200px;
+    height: 100%;
+    padding: 0;
+    background-color: rgb(206, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.ul.menu {
+    padding: 0;
+}
+
+.menu a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: rgb(207, 86, 86);
+}

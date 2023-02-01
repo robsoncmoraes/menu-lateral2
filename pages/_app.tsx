@@ -1,14 +1,18 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Menu from "../components/Menu";
+import Content from "../components/Content";
+import Submenu from "../components/Submenu";
 
+function MyApp({ Component, pageProps }) {
+  return (
+    <div className="container">
+      <Menu />
 
-import MainContainer from '../Components/MainContainer'
-
-function MyApp({ Component, pageProps }){
-  return(
-    <MainContainer>
-      <Component {...pageProps} />
-    </MainContainer>
-  )
+      <Content>
+        <Component {...pageProps} />
+      </Content>
+    </div>
+  );
 }
 
-export default MyApp
+export default MyApp;
