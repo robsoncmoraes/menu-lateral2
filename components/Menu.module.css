@@ -20,11 +20,17 @@
     transition: .3s;
 }
 
-.menu a:hover {
+.dropdown a:hover {
     color: rgb(207, 86, 86);
 }
 
 .styles.content {
     display: flex;
     flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
 }

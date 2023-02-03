@@ -19,7 +19,4 @@ function Submenu({ children, title }: SubmenuProps) {
   );
 }
 
-
-
-
 export default Submenu;

@@ -1,12 +1,11 @@
 import styles from "./Menu.module.css";
+import Component from "next";
 
 
-export default function Content() {
-  return (
-    <>
-  <div className={styles.content}></div>;
-<h1>teste</h1>
-</>
-  );
+type ContentProps = {
+  children: any;
+};
+
+export default function Content({ children }: ContentProps) {
+  return <div className="page">{children}</div>;
 }
-

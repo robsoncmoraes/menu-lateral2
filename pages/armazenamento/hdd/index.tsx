@@ -14,9 +14,6 @@ export default function Hdd() {
         convallis magna sollicitudin, congue est. Vestibulum quis ultrices
         lectus. Donec dictum erat nec est condimentum vestibulum.
       </h3>
-      <button>
-        <Link href="/">Voltar</Link>
-      </button>
     </>
   );
 }

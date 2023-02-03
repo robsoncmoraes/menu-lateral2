@@ -1,13 +1,11 @@
 import styles from "./Menu.module.css";
-import Link from "next/link";
 import Submenu from "./Submenu";
 import Image from "next/image";
 import logo from "../public/images/logo.png";
 import Item from "./Item";
-import { loadGetInitialProps } from "next/dist/shared/lib/utils";
+//import { loadGetInitialProps } from "next/dist/shared/lib/utils";
 
-
-export default function Menu() {
+export default function Menu({ Component, pageProps }) {
   return (
     <div className={styles.menu}>
       <div className="max-width"></div>
@@ -16,8 +14,9 @@ export default function Menu() {
         <Image src={logo} alt="logomarca" width={80} height={60} />
         InfoBR{" "}
       </div>
-
-      <ul className="menu">
+      <Menu />
+      <Component {...pageProps} />
+      <ul className="dropdown">
         <Submenu title="Armazenamento">
           <Item title={"HDD"} path="/armazenamento/hdd" />
           <Item title={"SSD"} path="/armazenamento/ssd" />
