@@ -1,8 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
 }
 
 
@@ -23,39 +21,41 @@ body {
 }
 
 .submenu-btn {
-  padding: 10px;
-  padding-left: 15px;
-  background-color: rgb(228, 226, 226);
-  font-weight: bold;
-  color: rgb(8, 8, 8);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: small;
+  padding: 8px;
+  padding-left: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 .submenu {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: small;
-  font-weight: bold;
+  font-size: large;
 }
 
 
 .logo {
   display: flex;
   align-items: center;
-  color: rgb(7, 6, 90);
-  font-weight: bold;
-  font-size: 35px;
-  font-weight: 300px;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 10px;
 }
 
 .submenu .submenu-content {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 h1 {
   font-size: 20px;
+}
+
+h3 {
+  font-size: medium;
+  font-style: normal;
 }
 
 ul {

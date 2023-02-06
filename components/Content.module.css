@@ -3,4 +3,6 @@
     flex-direction: row;
     margin: 40px;
     flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
 }

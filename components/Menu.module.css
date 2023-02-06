@@ -1,21 +1,15 @@
 .menu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    height: 100%;
-    padding: 0;
-    background-color: rgb(206, 206, 206);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    flex-basis: 200px;
-
+    gap: 30px;
+    background-color: rgb(246, 248, 250);
+    flex-basis: 300px;
 }
 
 
 
 .menu a {
-    color: rgb(7, 7, 7);
+    color: rgb(94, 94, 94);
     text-decoration: none;
     transition: .3s;
 }
