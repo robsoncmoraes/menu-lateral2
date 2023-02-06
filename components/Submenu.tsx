@@ -9,7 +9,7 @@ type SubmenuProps = {
   title: string;
 };
 
-function Submenu({ children, title }: SubmenuProps) {
+export function Submenu({ children, title }: SubmenuProps) {
   return (
     <div className="submenu">
       <div className="submenu-btn">{title}</div>

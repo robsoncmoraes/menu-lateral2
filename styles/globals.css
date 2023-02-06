@@ -1,10 +1,10 @@
-# {
+* {
   padding: 0;
   margin: 0;
-  font-family: verdana;
-  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
 }
+
 
 body {
   margin: 0;
@@ -13,24 +13,18 @@ body {
 
 .container {
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 100vh;
 }
 
 .submenu {
-  width: auto;
-  margin: auto;
-  padding-right: 10px;
+  margin: 10px;
 }
 
-.flex{
-  display: flex;
-
-}
-
-.submenu .submenu-btn {
-  padding: 5px;
-  padding-left: 10px;
+.submenu-btn {
+  padding: 10px;
+  padding-left: 15px;
   background-color: rgb(228, 226, 226);
   font-weight: bold;
   color: rgb(8, 8, 8);
@@ -38,32 +32,32 @@ body {
   font-size: small;
 }
 
-.submenu .submenu-lista {
+.submenu {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: small;
+  font-weight: bold;
 }
 
-.max-width {
-  max-width: 1300px;
-  /* padding: 0 0; */
-}
 
 .logo {
   display: flex;
-  color: brown;
+  align-items: center;
+  color: rgb(7, 6, 90);
   font-weight: bold;
   font-size: 35px;
   font-weight: 300px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
 }
 
 .submenu .submenu-content {
-  padding-left: 12px;
+  padding-left: 20px;
 }
 
+h1 {
+  font-size: 20px;
+}
 
-
-.component .menu {
-  display: flex;
-  flex-direction: column;
+ul {
+  width: 100%;
 }
