@@ -1,0 +1,11 @@
+import React, { useState, useEffect } from "react";
+
+function Get() {
+  const [url, setUrl] = useState("None");
+  useEffect(() => {
+    setUrl(window.location.href);
+  }, []);
+  return <div>Current URL = {url}</div>;
+}
+
+export default Get;

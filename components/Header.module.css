@@ -1,0 +1,17 @@
+.newManufacturer {
+    background: #70bde9;
+    color: white;
+    border-style: outset;
+    border-color: #70bde9;
+    height: 40px;
+    width: 120px;
+    text-shadow: none;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}

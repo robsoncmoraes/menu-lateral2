@@ -5,7 +5,7 @@ type ItemProps = {
   path: string;
 };
 
-export default function Item({path, title}: ItemProps) {
+export default function Item({ path, title }: ItemProps) {
   return (
     <>
       <div className="submenu-item">

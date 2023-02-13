@@ -13,6 +13,10 @@ export default function Menu() {
       </div>
 
       <ul className="menu">
+        <Submenu title="Cadastro">
+          <Item title={"Fabricantes"} path="/cadastro/fabricantes" />
+        </Submenu>
+
         <Submenu title="Armazenamento">
           <Item title={"HDD"} path="/armazenamento/hdd" />
           <Item title={"SSD"} path="/armazenamento/ssd" />
