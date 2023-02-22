@@ -1,0 +1,42 @@
+.table {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.theadth {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: rgb(94, 94, 94);
+}
+
+.tbodytr:hover {
+    background-color: #eee;
+}
+
+.tbodytd {
+    border-bottom: 1px solid #eee;
+    color: rgb(94, 94, 94);
+    padding: 4px;
+}
+
+.buttonedit {
+    background: #70bde9;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width: 70px;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.buttonerase {
+    background: #ee4e03;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width: 70px;
+    text-shadow: none;
+    border-radius: 5px;
+}
