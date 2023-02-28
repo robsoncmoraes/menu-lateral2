@@ -7,7 +7,9 @@ export default function Header() {
     <>
       <div className={styles.header}>
         <h1>Fabricantes</h1>
-        <button className={styles.newManufacturer}>Novo Fabricante</button>
+        <Link href="../../cadastro/fabricantes/novofabricante">
+          <button className={styles.newManufacturer}>Novo Fabricante</button>
+        </Link>
       </div>
       <div>
         <Link

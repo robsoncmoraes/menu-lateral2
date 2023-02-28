@@ -23,11 +23,12 @@
     background: #70bde9;
     color: white;
     border-style: none;
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     text-shadow: none;
     border-radius: 5px;
     margin: 5px;
+    cursor: pointer;
 
 }
 
@@ -35,8 +36,9 @@
     background: #ee4e03;
     color: white;
     border-style: none;
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     text-shadow: none;
     border-radius: 5px;
+    cursor: pointer;
 }

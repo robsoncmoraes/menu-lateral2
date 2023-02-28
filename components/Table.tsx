@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Table.module.css";
+import { FaRegTrashAlt, FaPen } from "react-icons/fa";
 
 const useSortableData = (items, config = null) => {
   const [sortConfig, setSortConfig] = React.useState(config);
@@ -69,7 +70,7 @@ const ProductTable = (props) => {
           <tr className={styles.tbodytr} key={item.id}>
             <td className={styles.tbodytd}>{item.name}</td>
             <td className={styles.tbodytd}>{item.cnpj}</td>
-            <td className={styles.tbodytd} width="150">
+            <td className={styles.tbodytd} width="100">
               {item.action}
             </td>
           </tr>
@@ -90,8 +91,12 @@ export default function Table() {
             cnpj: "48.479.961/0001-57",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -101,8 +106,12 @@ export default function Table() {
             cnpj: "47.377.561/0001-78",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -112,8 +121,12 @@ export default function Table() {
             cnpj: "64.245.525/0001-70",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -123,8 +136,12 @@ export default function Table() {
             cnpj: "56.722.837/0001-07",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -134,8 +151,12 @@ export default function Table() {
             cnpj: "90.745.999/0001-90",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -145,8 +166,12 @@ export default function Table() {
             cnpj: "87.384.161/0001-04",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
@@ -156,8 +181,12 @@ export default function Table() {
             cnpj: "29.613.677/0001-87",
             action: (
               <div align="right">
-                <button className={styles.buttonedit}>Editar</button>
-                <button className={styles.buttonerase}>Apagar</button>
+                <button className={styles.buttonedit}>
+                  <FaPen />
+                </button>
+                <button className={styles.buttonerase}>
+                  <FaRegTrashAlt />
+                </button>
               </div>
             ),
           },
