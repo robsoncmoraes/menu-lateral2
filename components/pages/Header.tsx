@@ -1,13 +1,13 @@
 import Link from "next/link";
 import styles from "./Header.module.css";
-import Table from "./Table";
+import Table from "../table/Table";
 
 export default function Header() {
   return (
     <>
       <div className={styles.header}>
         <h1>Fabricantes</h1>
-        <Link href="../../cadastro/fabricantes/novofabricante">
+        <Link href="../../cadastro/fabricantes/newmanufacturer">
           <button className={styles.newManufacturer}>Novo Fabricante</button>
         </Link>
       </div>

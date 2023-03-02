@@ -1,0 +1,13 @@
+.editForm {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+
+}
+
+.h1Text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}

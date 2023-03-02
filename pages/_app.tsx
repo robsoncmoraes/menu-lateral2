@@ -1,6 +1,6 @@
 import "../styles/globals.css";
-import Menu from "../components/Menu";
-import Content from "../components/Content";
+import Menu from "../components/menu/Menu";
+import Content from "../components/content/Content";
 
 function MyApp({ Component, pageProps }) {
   return (

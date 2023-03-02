@@ -1,7 +1,7 @@
 import styles from "./Menu.module.css";
 import Submenu from "./Submenu";
 import Image from "next/image";
-import logo from "../public/images/logo.png";
+import logo from "../../public/images/logo.png";
 import Item from "./Item";
 
 export default function Menu() {
