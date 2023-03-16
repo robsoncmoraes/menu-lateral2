@@ -24,7 +24,7 @@
 .newManufacturer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     color: rgb(94, 94, 94);
 }

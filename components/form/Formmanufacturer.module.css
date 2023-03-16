@@ -1,13 +1,66 @@
-.editForm {
-    height: 100vh;
-    width: auto;
+.title {
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+    color: rgb(94, 94, 94);
+    font-size: medium;
+}
+
+
+.group {
+    border: 0;
     display: flex;
-    flex-direction: column;
-    column-gap: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+
 
 }
 
-.h1Text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 10px;
+.alignForm {
+    margin-bottom: 1em;
+
+}
+
+.alignInput {
+    display: flex;
+    width: 500px;
+}
+
+.aligncep {
+    display: flex;
+    width: 150px;
+}
+
+.alignnumber {
+    display: flex;
+    width: 200px;
+}
+
+.alignrua {
+    display: flex;
+    width: 700px;
+}
+
+.aligncomp {
+    display: flex;
+    width: 600px;
+}
+
+.alignbairro {
+    width: 400px;
+    display: flex;
+}
+
+.aligncidade {
+    width: 400px;
+    display: flex;
+}
+
+.alignstate {
+    display: flex;
+    width: 300px;
+}
+
+.alignibge {
+    width: 300px;
+    display: flex;
 }

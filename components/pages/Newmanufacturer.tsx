@@ -7,14 +7,13 @@ export default function Newmanufacturer() {
     <>
       <div className={styles.newManufacturer}>
         <h1>Fabricantes</h1>
-        <div className={styles.alignButton}>
+
+        <div>
           <Link href="../../cadastro/fabricantes/newmanufacturer">
             <button className={styles.cancelManufacturer}>Cancelar</button>
           </Link>
-        </div>
-        <div>
           <Link href="../../cadastro/fabricantes/newmanufacturer">
-            <button className={styles.saveManufacturer}>
+            <button type="submit" className={styles.saveManufacturer}>
               Salvar Fabricante
             </button>
           </Link>
