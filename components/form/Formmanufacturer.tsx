@@ -3,19 +3,19 @@ import styles from "./Formmanufacturer.module.css";
 
 export default function Formmanufacturer() {
   const [signupState, setSignupState] = useState({
-    cpfcnpj: "",
-    razaosocial: "",
-    nomefantasia: "",
-    tipodefornecedor: "",
-    indicadorinscestadual: "",
-    inscestadual: "",
-    cep: "",
-    rua: "",
-    numero: "",
-    complemento: "",
-    bairro: "",
-    cidade: "",
-    estado: "",
+    CpfCnpj: "",
+    RazaoSocial: "",
+    NomeFantasia: "",
+    TipoFornecedor: "",
+    IndicadorInscEstadual: "",
+    InscEstadual: "",
+    Cep: "",
+    Rua: "",
+    Numero: "",
+    Complemento: "",
+    Bairro: "",
+    Cidade: "",
+    Estado: "",
     ibge: "",
   });
 
@@ -23,7 +23,7 @@ export default function Formmanufacturer() {
     setSignupState({ ...signupState, [key]: event.target.value });
     event.preventDefault();
   };
-}
+
   return (
     <>
       <h1 className={styles.title}>Informações Gerais</h1>
@@ -35,10 +35,10 @@ export default function Formmanufacturer() {
               CPF/CNPJ{" "}
               <input
                 className={styles.alignInput}
-                type="text"
+                type="number"
                 placeholder="000.000.000-00"
-                value={signupState.cpfcnpj}
-                onChange={(event) => handleSignupForm(event, "cpfcnpf")}
+                value={signupState.CpfCnpj}
+                onChange={(event) => handleSignupForm(event, "CpfCnpj")}
               />
             </label>
           </div>
@@ -49,8 +49,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.alignInput}
                 type="text"
-                value={signupState.razaosocial}
-                onChange={(event) => handleSignupForm(event, "razaosocial")}
+                value={signupState.RazaoSocial}
+                onChange={(event) => handleSignupForm(event, "RazaoSocial")}
               />
             </label>
           </div>
@@ -61,8 +61,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.alignInput}
                 type="text"
-                value={signupState.nomefantasia}
-                onChange={(event) => handleSignupForm(event, "nomefantasia")}
+                value={signupState.NomeFantasia}
+                onChange={(event) => handleSignupForm(event, "NomeFantasia")}
               />
             </label>
           </div>
@@ -73,8 +73,8 @@ export default function Formmanufacturer() {
             <label>Tipo de Fornecedor</label>
             <select
               className={styles.alignInput}
-              value={signupState.tipodefornecedor}
-              onChange={(event) => handleSignupForm(event, "tipodefornecedor")}
+              value={signupState.TipoFornecedor}
+              onChange={(event) => handleSignupForm(event, "TipoFornecedor")}
             >
               <option selected disabled value=""></option>
               <option>Opção 01</option>
@@ -88,9 +88,9 @@ export default function Formmanufacturer() {
             <select
               className={styles.alignInput}
               id="IndicadorInscEstadual"
-              value={signupState.indicadorinscestadual}
+              value={signupState.IndicadorInscEstadual}
               onChange={(event) =>
-                handleSignupForm(event, "indicadorinscestadual")
+                handleSignupForm(event, "IndicadorInscEstadual")
               }
             >
               <option selected disabled value=""></option>
@@ -107,8 +107,8 @@ export default function Formmanufacturer() {
                 className={styles.alignInput}
                 type="number"
                 placeholder="000.000.000.000"
-                value={signupState.inscestadual}
-                onChange={(event) => handleSignupForm(event, "inscestadual")}
+                value={signupState.InscEstadual}
+                onChange={(event) => handleSignupForm(event, "InscEstadual")}
               />
             </label>
           </div>
@@ -124,8 +124,8 @@ export default function Formmanufacturer() {
                 className={styles.aligncep}
                 type="number"
                 placeholder="00000-000"
-                value={signupState.cep}
-                onChange={(event) => handleSignupForm(event, "cep")}
+                value={signupState.Cep}
+                onChange={(event) => handleSignupForm(event, "Cep")}
               />
             </label>
           </div>
@@ -138,8 +138,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.alignrua}
                 type="text"
-                value={signupState.rua}
-                onChange={(event) => handleSignupForm(event, "rua")}
+                value={signupState.Rua}
+                onChange={(event) => handleSignupForm(event, "Rua")}
               />
             </label>
           </div>
@@ -149,8 +149,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.alignnumber}
                 type="text"
-                value={signupState.numero}
-                onChange={(event) => handleSignupForm(event, "numero")}
+                value={signupState.Numero}
+                onChange={(event) => handleSignupForm(event, "Numero")}
               />
             </label>
           </div>
@@ -160,8 +160,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.aligncomp}
                 type="text"
-                value={signupState.complemento}
-                onChange={(event) => handleSignupForm(event, "complemento")}
+                value={signupState.Complemento}
+                onChange={(event) => handleSignupForm(event, "Complemento")}
               />
             </label>
           </div>
@@ -174,8 +174,8 @@ export default function Formmanufacturer() {
               <input
                 className={styles.alignbairro}
                 type="text"
-                value={signupState.bairro}
-                onChange={(event) => handleSignupForm(event, "bairro")}
+                value={signupState.Bairro}
+                onChange={(event) => handleSignupForm(event, "Bairro")}
               />
             </label>
           </div>
@@ -186,8 +186,8 @@ export default function Formmanufacturer() {
                 className={styles.aligncidade}
                 type="text"
                 placeholder=" "
-                value={signupState.cidade}
-                onChange={(event) => handleSignupForm(event, "cidade")}
+                value={signupState.Cidade}
+                onChange={(event) => handleSignupForm(event, "Cidade")}
               />
             </label>
           </div>
@@ -196,8 +196,8 @@ export default function Formmanufacturer() {
             <select
               className={styles.alignstate}
               id="Estado"
-              value={signupState.estado}
-              onChange={(event) => handleSignupForm(event, "estado")}
+              value={signupState.Estado}
+              onChange={(event) => handleSignupForm(event, "Estado")}
             >
               <option selected disabled value=""></option>
               <option>Rio de Janeiro</option>
