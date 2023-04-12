@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./Newmanufacturer.module.css";
-import Formmanufacturer from "../form/formmanufacturer";
+import Formmanufacturer from "../form/Formmanufacturer";
 
 export default function Newmanufacturer() {
   return (

@@ -11,8 +11,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
-
+.group input {
+    display: flex;
 }
 
 .alignForm {
@@ -22,45 +24,12 @@
 
 .alignInput {
     display: flex;
-    width: 500px;
-}
-
-.aligncep {
-    display: flex;
-    width: 150px;
-}
-
-.alignnumber {
-    display: flex;
-    width: 200px;
-}
-
-.alignrua {
-    display: flex;
-    width: 700px;
-}
-
-.aligncomp {
-    display: flex;
-    width: 600px;
-}
-
-.alignbairro {
-    width: 400px;
-    display: flex;
-}
-
-.aligncidade {
-    width: 400px;
-    display: flex;
+    width: 300px;
+    margin-right: 30px;
 }
 
 .alignstate {
     display: flex;
-    width: 300px;
-}
-
-.alignibge {
-    width: 300px;
-    display: flex;
+    width: 250px;
+    margin-right: 30px;
 }
